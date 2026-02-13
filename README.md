@@ -6,15 +6,17 @@ Tujuan dari proyek ini adalah melakukan analisis terhadap Bike Sharing Dataset s
 📌 Cara Menjalankan Dashboard<br>
 Berikut adalah tahapan yang perlu dilakukan untuk menjalankan dashboard :
 1. Persiapkan Lingkungan :
+   
    Pastikan Python dan pip sudah terpasang di komputer Anda.
    Jika belum tersedia, silakan unduh dan instal melalui situs resmi berikut :
    https://www.python.org/downloads/windows/
-2. Install Library yang Dibutuhkan :
+   
+3. Install Library yang Dibutuhkan :
    Jalankan perintah berikut untuk menginstall semua dependensi yang ada di
    ```bash
    pip install -r requirements.txt
    
-3. Menjalankan Dashboard
+4. Menjalankan Dashboard
    Gunakan perintah berikut untuk menjalankan dashboard menggunakan **Streamlit** :
    ```bash
    streamlit run dashboard.py
